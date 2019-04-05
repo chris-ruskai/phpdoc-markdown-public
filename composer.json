@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "phpdocumentor/phpdocumentor": "~2.8"
+        "phpdocumentor/phpdocumentor": "3.0.0-alpha.3"
     },
     "autoload": {
         "psr-4": {
