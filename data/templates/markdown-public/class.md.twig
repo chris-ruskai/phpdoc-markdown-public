@@ -16,7 +16,7 @@
 **See Also:**
 
 {% for see in class.tags.see %}
-* {{ see.reference }} {% if see.description %}- {{ see.description|raw }}{% endif %}
+* {{ see.reference }} {% if see.description %}- {{ see.description|raw }}{% endif %} {{ |raw|nl2br }}
 
 {% endfor %}
 {% for link in class.tags.link %}
