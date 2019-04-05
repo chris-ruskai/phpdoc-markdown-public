@@ -1,15 +1,7 @@
 {
-    "name": "cvuorinen/phpdoc-markdown-public",
-    "description": "phpDocumentor template that generates Markdown documentation of the public API",
-    "keywords" : [ "PHPDoc", "phpDocumentor", "Documentation", "Markdown" ],
-    "homepage" : "https://github.com/cvuorinen/phpdoc-markdown-public",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Carl Vuorinen",
-            "email": "carl.vuorinen@gmail.com"
-        }
-    ],
+    "name": "phpdoc3-compat/phpdoc-markdown-public",
+    "description": "phpDocumentor template that generates Markdown documentation of the public API",    
+    "license": "MIT",    
     "require": {
         "phpdocumentor/phpdocumentor": "3.0.0-alpha.3"
     },
