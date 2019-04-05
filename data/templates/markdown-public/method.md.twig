@@ -41,10 +41,11 @@
 **See Also:**
 
 {% for see in method.tags.see %}
-- {{ see.reference }} {% if see.description %}- {{ see.description|raw }}{% endif %}  
+
+- [{% if see.description %}{{ see.description|raw }} {% else %} {{ see.reference }} {% endif %}]({{ see.reference }})
 {% endfor %}
 {% for link in method.tags.link %}
-- {{ link.link }} {% if link.description and link.description != link.link %}- {{ link.description|raw }}{% endif %}  
+-[{% if link.description and link.description != link.link %}{{ link.description|raw }}{% else %} {{ link.reference }} {% endif %}]({{ link.link }})
 {% endfor %}
 
 {% endif %}{# method.tags.see || method.tags.link #}
