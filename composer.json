@@ -5,6 +5,12 @@
     "require": {
         "phpdocumentor/phpdocumentor": "dev-master"
     },
+    "authors": [
+        {
+            "name": "Carl Vuorinen",
+            "email": "carl.vuorinen@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Cvuorinen\\PhpdocMarkdownPublic\\": "src"
