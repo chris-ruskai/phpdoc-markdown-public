@@ -3,7 +3,7 @@
     "description": "phpDocumentor template that generates Markdown documentation of the public API",    
     "license": "MIT",    
     "require": {
-        "phpdocumentor/phpdocumentor": "3.0.0-alpha.3"
+        "phpdocumentor/phpdocumentor": "dev-master"
     },
     "autoload": {
         "psr-4": {
