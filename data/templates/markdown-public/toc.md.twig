@@ -4,13 +4,13 @@
 {% if not class.abstract %}
 * {{ anchorLink(class.name) }}
 {% for method in publicMethods(class) %}
-    * {{ anchorLink(method.name) }}
+    * public function {{ anchorLink(method.name) }}
 {% endfor %}
 {% for method in protectedMethods(class) %}
-    * {{ anchorLink(method.name) }}
+    * protected function {{ anchorLink(method.name) }}
 {% endfor %}
 {% for method in privateMethods(class) %}
-    * {{ anchorLink(method.name) }}
+    * private function {{ anchorLink(method.name) }}
 {% endfor %}
 {% endif %}
 {% endfor %}
