@@ -20,7 +20,7 @@
 {% endif %}
 
 {% if method.arguments is not empty %}
-**Parameters:**
+##### Parameters:
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -31,14 +31,14 @@
 {% endif %}{# method.arguments is not empty #}
 
 {% if method.response.description %}
-**Return Value:**
+##### Return Value:
 
 {{ method.response.description|raw }}
 
 {% endif %}
 
 {% if method.tags.see is not empty or method.tags.link is not empty %}
-**See Also:**
+##### See Also:
 
 {% for see in method.tags.see %}
 
