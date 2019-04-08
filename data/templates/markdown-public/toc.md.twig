@@ -5,8 +5,10 @@
 * {{ anchorLink(class.name) }}
 {% for method in publicMethods(class) %}
     * {{ anchorLink(method.name) }}
+{% endfor %}
 {% for method in protectedMethods(class) %}
     * {{ anchorLink(method.name) }}
+{% endfor %}
 {% for method in privateMethods(class) %}
     * {{ anchorLink(method.name) }}
 {% endfor %}
